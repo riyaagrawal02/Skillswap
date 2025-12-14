@@ -57,6 +57,8 @@ router.get('/profile', authMiddleware, async (req, res) => {
         console.log("error", error);
         res.status(500).json({ 'Message': "Internal Server Error in signing in user!!" })
     }
-})
+});
+
+
 
 export default router;

@@ -18,18 +18,18 @@ function Header() {
 
 
   return (
-    <header className="bg-gray-900 shadow-md px-6 py-4 flex justify-between items-center">
+    <header className="bg-gray-100 shadow-md px-6 py-4 flex justify-between items-center">
       <div className="flex items-center space-x-2">
-        <img src="\image.png" alt="SkillSwap Logo" className="w-10 h-10" />
-        <span className='text-white'> SkillSwap</span>
+        <img src="" alt="SkillSwap Logo" className="w-10 h-10" />
+        <span className='text-teal-900 text-2xl font-bold font-serif'> SkillSwap</span>
       </div>
       <nav className="space-x-6">
-        <Link to="/home" className="text-white hover:text-blue-600">Home</Link>
-        <Link to="/about" className="text-white hover:text-blue-600">About Us</Link>
-        <Link to="/contact" className="text-white hover:text-blue-600">Contact Us</Link>
-        {!auth && <Link to="/login" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"> Signup / Signin
+        <Link to="/home" className="text-blue-950 hover:text-blue-600">Home</Link>
+        <Link to="/about" className="text-blue-950 hover:text-blue-600">About Us</Link>
+        <Link to="/contact" className="text-blue-950 hover:text-blue-600">Contact Us</Link>
+        {!auth && <Link to="/login" className="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-900 transition"> Signup / Signin
         </Link>}
-        {auth && <button onClick={() => { localStorage.removeItem('token') }} className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"> Signout
+        {auth && <button onClick={() => { localStorage.removeItem('token') }} className="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-900 transition"> Signout
         </button>}
       </nav>
     </header>

@@ -12,6 +12,7 @@ import { UserProvider } from '../context/UserContext'
 import Explore from './pages/Explore'
 import HeroSection from './components/HeroSection'
 
+
 function App() {
 
   return (
