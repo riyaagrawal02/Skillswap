@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className="absolute inset-0 flex flex-col mx-8 px-4 items-start justify-center text-center text-white">
         <h1 className="text-5xl text-teal-400 md:text-7xl font-serif font-bold drop-shadow-lg">
-          Shayog 
+          Sahyog 
         </h1>
         <p className="mt-4 text-lg md:text-xl text-gray-500 drop-shadow-md">
           Exchange skills. Learn. Grow together.

@@ -21,7 +21,7 @@ function Header() {
     <header className="bg-gray-100 shadow-md px-6 py-4 flex justify-between items-center">
       <div className="flex items-center space-x-2">
         <img src="" alt="SkillSwap Logo" className="w-10 h-10" />
-        <span className='text-teal-900 text-2xl font-bold font-serif'> Shayog </span>
+        <span className='text-teal-900 text-2xl font-bold font-serif'> Sahyog </span>
       </div>
       <nav className="space-x-6">
         <Link to="/home" className="text-blue-950 hover:text-blue-600">Home</Link>
